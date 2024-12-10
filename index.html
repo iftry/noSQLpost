@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree warehouse</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Tree warehouse</h1>
+
+    <form id="tree-form">
+        <label for="create-name">Tree name:</label>
+        <input type="text" id="create-name" required />
+        
+        <label for="create-height">Tree height:</label>
+        <input type="text" id="create-height" required />
+
+        <label for="create-type">Tree type:</label>
+        <select id="create-type">
+            <option value="lapai">lapuotis</option>
+            <option value="spygliai">spygliuotis</option>
+            <option value="palme">palme</option>
+        </select>
+
+        <button type="submit" id="create">Insert</button>
+        <button type="submit" id="updateSave">Update</button>
+    </form>
+</body>
+</html>
